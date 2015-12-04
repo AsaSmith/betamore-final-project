@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "^3.3.6",
     "bower": "^1.6.8",
     "express": "^4.13.3",
     "jade": "^1.11.0"

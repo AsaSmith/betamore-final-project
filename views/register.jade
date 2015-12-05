@@ -6,22 +6,26 @@ block title
 
   h1 Register
   
-  form
+  form(name="register", action="/register", method="post")
   
       .form-group
         label.control-label First Name
-        input.form-control
+        input.form-control(type="text", name="firstName")
 
       .form-group
         label.control-label Last Name
-        input.form-control
+        input.form-control(type="text", name="lastName")
   
       .form-group
           label.control-label User Name
-          input.form-control
+          input.form-control(type="text", name="userName")
           
       .form-group
           label.control-label User Email
-          input.form-control
+          input.form-control(type="email", name="email")
+          
+      .form-group
+          label.control-label Password
+          input.form-control(type="password", name="password")
           
       button.btn.btn-default(type="submit") Register!

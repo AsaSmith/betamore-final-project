@@ -6,14 +6,14 @@ block title
 
   h1 Login 
   
-  form
+  form(name="login", method="post")
   
       .form-group
         label.control-label User Name
-        input.form-control
+        input.form-control(type="text", name="userName")
 
       .form-group
         label.control-label Password
-        input.form-control
+        input.form-control(type="password" name="password")
   
         button.btn.btn-default(type="submit") Login
